@@ -12,3 +12,5 @@
 -   git reset --hard HEAD^：重置到上一个版本，HEAD^可换成具体的版本号，版本号用 git log 命令获取；
 -   git log --pretty=oneline：查看版本号；
 -   测试 git push
+-   added in branch-03
+-
