@@ -5,6 +5,8 @@
 -   git status：查看代码修改情况；
 -   git add .：只能提交未跟踪和修改文件，不处理删除文件；
 -   git add ./src/：将 src 目录下文件添加到暂存区；
+-   git rm --cached readme.txt：删除暂存区的 readme.txt；
+-   git rm readme.txt：删除暂存区和工作区中的 readme.txt；
 -   git commit -m 'descriptions'：将更改和备注存储到新的提交中；
 -   git commit -am 'descriptions'：基本相当于 git add 和 git commit -m 的组合，但只对跟踪过的文件有效；
 -   git pull：拉取代码到本地，origin master 为从远程主分支拉取；
@@ -14,3 +16,5 @@
 -   git reset --hard HEAD^：重置到上一个版本，HEAD^可换成具体的版本号，版本号用 git log 命令获取；
 -   git log --pretty=oneline：查看版本号；
 -   git reflog：跟 git log 不同，能显示 git reset 的回退记录；
+-   git branch -d/-D branchName：删除 branchName 仓库，-D 强制删除未被合并的分支；
+-   git merge branchName：合并分支；
