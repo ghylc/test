@@ -18,3 +18,4 @@
 -   git reflog：跟 git log 不同，能显示 git reset 的回退记录；
 -   git branch -d/-D branchName：删除 branchName 仓库，-D 强制删除未被合并的分支；
 -   git merge branchName：合并分支；
+-   git blame readme.txt：查看文件修改人；
